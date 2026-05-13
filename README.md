@@ -43,7 +43,7 @@ It comes packed with **world-class features** like Beam, and is praised for its 
 
 ### What makes Big-AGI different:
 
-**Intelligence**: with [Beam & Merge](https://big-agi.com/beam) for multi-model de-hallucination, native search, and bleeding-edge AI models like Opus 4.7, Nano Banana Pro, Kimi K2.6 or GPT 5.4 -
+**Intelligence**: with [Beam & Merge](https://big-agi.com/beam) for multi-model de-hallucination, native search, and bleeding-edge AI models like Opus 4.7 1M, GPT 5.5, Gemini 3.1, DeepSeek V4 or Grok 4.3 -
 **Control**: with personas, data ownership, requests inspection, unlimited usage with API keys, and *no vendor lock-in* -
 and **Speed**: with a local-first, over-powered, zero-latency, madly optimized web app.
 
@@ -144,6 +144,7 @@ NOTE: this is a powerful tool - if you need a toy UI or clone, this ain't it.
 ## Release Notes
 
 👉 **[See the Live Release Notes](https://big-agi.com/changes)**
+- Open 2.0.5: **Roberto** **Opus 4.7 1M**, **GPT-5.5**, **DeepSeek V4**, Anthropic Containers/Skills, resumable Deep Research, MiniMax & Arcee AI
 - Open 2.0.4: **Hyper Params** **Opus 4.6**, **GPT-5.4**, **Gemini 3.1 Pro**, AWS Bedrock, parameter accuracy, Anthropic continuation/Fast mode
 - Open 2.0.3: **Red Carpet** **Kimi K2.5**, **Gemini 3 Flash**, **GPT 5.2**, Google Drive, Inworld, Novita.ai, Speech/UX improvements
 - Open 2.0.2: **Speex** multi-vendor speech synthesis, **Opus 4.5**, **Gemini 3 Pro**, **Nano Banana Pro**, **Grok 4.1**, **GPT-5.1**, **Kimi K2** + 280 fixes
