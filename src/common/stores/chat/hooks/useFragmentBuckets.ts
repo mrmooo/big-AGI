@@ -16,7 +16,7 @@ interface FragmentBuckets {
   interleavedFragments: InterleavedFragment[];
   imageAttachments: DMessageAttachmentFragment[];
   nonImageAttachments: DMessageAttachmentFragment[];
-  lastFragmentIsError: boolean;
+  // lastFragmentIsError: boolean;
 }
 
 /**
@@ -88,14 +88,14 @@ export function useFragmentBuckets(
     if (!shallowEquals(nonImageAttachments, nonImageAttachmentsRef.current))
       nonImageAttachmentsRef.current = nonImageAttachments;
 
-    const lastFragment: DMessageFragment | undefined = messageFragments.at(-1);
+    // const lastFragment: DMessageFragment | undefined = messageFragments.at(-1);
 
     return {
       annotationFragments: annotationFragmentsRef.current,
       interleavedFragments: interleavedFragmentsRef.current,
       imageAttachments: imageAttachmentsRef.current,
       nonImageAttachments: nonImageAttachmentsRef.current,
-      lastFragmentIsError: !!lastFragment && isContentFragment(lastFragment) && isErrorPart(lastFragment.part),
+      // lastFragmentIsError: !!lastFragment && isContentFragment(lastFragment) && isErrorPart(lastFragment.part),
     };
   }, [isVisible, messageFragments]);
 }
